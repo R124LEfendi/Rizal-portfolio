@@ -11,6 +11,7 @@ export default function About() {
         id="about"
         container
         sx={{ display: { md: "flex", xs: "grid", alignItems: "center" } }}
+        backgroundcolour="red"
       >
         <Grid item md={6}>
           <Box>
