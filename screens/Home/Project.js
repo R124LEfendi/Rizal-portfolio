@@ -19,20 +19,20 @@ export default function Project() {
     {
       id: 1,
       nama: "project1",
-      url: "www.facebook.com",
-      image: "QodiingiyahTeam.jpg",
+      url: "https://belajar-neon.vercel.app/",
+      image: "project1.jpg",
     },
     {
       id: 2,
       nama: "project2",
-      url: "www.facebook.com",
-      image: "ogik.jpg",
+      url: "https://belajar-bootstrap-d2ge.vercel.app/",
+      image: "project2.jpg",
     },
     {
       id: 3,
       nama: "project3",
-      url: "https://facebook.com",
-      image: "Rizal.jpg",
+      url: "https://web-film-three.vercel.app/",
+      image: "project3.jpg",
     },
   ];
 
@@ -48,7 +48,7 @@ export default function Project() {
             <Grid item xs={2} sm={4} md={4} key={index}>
               <Item>
                 <a href={item.url}>
-                  <img src={item.image} />
+                  <img src={item.image} className="projectImage" />
                 </a>
               </Item>
             </Grid>

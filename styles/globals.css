@@ -18,6 +18,10 @@ body {
   margin: 40px;
 }
 
+.projectImage {
+  width: 20%;
+}
+
 .donotcross {
   overflow: hidden;
   align-items: center;
@@ -26,11 +30,11 @@ body {
   height: 2em;
   line-height: 2em;
 }
-  &:before,
-  &:after {
-    background: white;
-    padding: 50px 0;
-    height: 0;
-    transform: rotate(45deg);
-  }
-}
+
+/* &:before,
+&:after {
+  background: white;
+  padding: 50px 0;
+  height: 0;
+  transform: rotate(45deg);
+} */

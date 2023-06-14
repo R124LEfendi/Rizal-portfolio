@@ -22,9 +22,9 @@ export default function About() {
         >
           <Box>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.1947184946424!2d112.0720536262114!3d-7.56238477196913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784794d6bbb4c1%3A0xd30aa6ae881491e6!2sNasi%20Tumpang%20Pecel%20Bu%20Khoiriyah!5e0!3m2!1sid!2sid!4v1647661682452!5m2!1sid!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3955.115374756137!2d112.06642507455524!3d-7.562397992451555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMzMnNDQuNiJTIDExMsKwMDQnMDguNCJF!5e0!3m2!1sid!2sid!4v1686750398920!5m2!1sid!2sid"
+              width="300"
               height="450"
-              allowfullscreen=""
               loading="lazy"
             ></iframe>
           </Box>
@@ -37,16 +37,16 @@ export default function About() {
           </Box>
           <Box mt={1} display="flex" gap="5px">
             <Box>
-              <SocialIcon url="https://facebook.com/jaketrent" />
+              <SocialIcon url="https://facebook.com/rizal.argas" />
             </Box>
             <Box>
-              <SocialIcon url="https://instagram.com/yogs.imagine/" />
+              <SocialIcon url="https://www.instagram.com/iam.rizalefendi/" />
             </Box>
             <Box>
-              <SocialIcon url="https://api.whatsapp.com/send?phone=6285975240034" />
+              <SocialIcon url="https://api.whatsapp.com/send?phone=6289672108138" />
             </Box>
             <Box>
-              <SocialIcon url="https://mail.google.com/mail/u/0/#inbox" />
+              <SocialIcon url="https://mail.google.com/mail/u/0/#inbox/rizalgaras@gmail.com" />
             </Box>
           </Box>
           <Box mt={2}>
@@ -61,7 +61,7 @@ export default function About() {
               Nomor Handphone :
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              085975240034
+              089672108138
             </Typography>
           </Box>
         </Grid>
