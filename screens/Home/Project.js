@@ -42,15 +42,17 @@ export default function Project() {
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={{ xs: 2, md: 3 }}>
           {datas.map((item, index) => (
-            <Grid item xs={12} sm={12} md={4} key={index}>
-              <Item
-                style={{
-                  backgroundImage: `url(${item.image})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              ></Item>
-            </Grid>
+            <Link href={item.url}>
+              <Grid item xs={12} sm={12} md={4} key={index}>
+                <Item
+                  style={{
+                    backgroundImage: `url(${item.image})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                ></Item>
+              </Grid>
+            </Link>
           ))}
         </Grid>
       </Box>
