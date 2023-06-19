@@ -18,10 +18,6 @@ body {
   margin: 40px;
 }
 
-.projectImage {
-  width: 20%;
-}
-
 .donotcross {
   overflow: hidden;
   align-items: center;

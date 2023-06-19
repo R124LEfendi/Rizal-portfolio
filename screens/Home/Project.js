@@ -9,9 +9,10 @@ import Link from "next/link";
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
   ...theme.typography.body2,
-  padding: theme.spacing(2),
+  // padding: theme.spacing(2),
   textAlign: "center",
   color: theme.palette.text.secondary,
+  minHeight: "240px",
 }));
 
 export default function Project() {
@@ -39,18 +40,16 @@ export default function Project() {
   return (
     <ContainerSection title={"Project"}>
       <Box sx={{ flexGrow: 1 }}>
-        <Grid
-          container
-          spacing={{ xs: 2, md: 3 }}
-          columns={{ xs: 4, sm: 8, md: 14 }}
-        >
+        <Grid container spacing={{ xs: 2, md: 3 }}>
           {datas.map((item, index) => (
-            <Grid item xs={2} sm={4} md={4} key={index}>
-              <Item>
-                <a href={item.url}>
-                  <img src={item.image} className="projectImage" />
-                </a>
-              </Item>
+            <Grid item xs={12} sm={12} md={4} key={index}>
+              <Item
+                style={{
+                  backgroundImage: `url(${item.image})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+              ></Item>
             </Grid>
           ))}
         </Grid>

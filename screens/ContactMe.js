@@ -46,7 +46,12 @@ export default function About() {
               <SocialIcon url="https://api.whatsapp.com/send?phone=6289672108138" />
             </Box>
             <Box>
-              <SocialIcon url="https://mail.google.com/mail/u/0/#inbox/rizalgaras@gmail.com" />
+              <SocialIcon
+                onClick={() =>
+                  window.location.href("mailto:rizalgaras@gmail.com")
+                }
+                url="https://mail.google.com/mail/u/0/#inbox/rizalgaras@gmail.com"
+              />
             </Box>
           </Box>
           <Box mt={2}>
