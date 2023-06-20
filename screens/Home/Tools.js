@@ -7,16 +7,20 @@ import ContainerSection from "../../Components/ContainerSection";
 
 const slideImages = [
   {
-    url: "cam1.jpg",
-    caption: "Canon Eos 1",
+    url: "html.png",
+    caption: "HTML CSS Javascript",
   },
   {
-    url: "cam2.jpg",
-    caption: "Canon Eos 2",
+    url: "bootstrap.png",
+    caption: "Bootstrap",
   },
   {
-    url: "cam3.jpg",
-    caption: "Canon Eos 3",
+    url: "mui.webp",
+    caption: "Material UI",
+  },
+  {
+    url: "React.webp",
+    caption: "React JS",
   },
 ];
 
@@ -28,7 +32,8 @@ function Tools(props) {
           {slideImages.map((slideImage, index) => (
             <Box className="each-slide" key={index}>
               <Box
-                height="500px"
+                height="600px"
+                width="100%"
                 style={{
                   backgroundImage: `url(${slideImage.url})`,
                   backgroundRepeat: "no-repeat",

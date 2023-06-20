@@ -115,7 +115,7 @@ const Navbar = () => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
           >
-            <img src="/yogs.jpeg" width={120} />
+            {/* <img src="/yogs.jpeg" width={120} /> */}
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {menus.map((item) => (
